@@ -150,13 +150,13 @@ def getPrunedGraph(G,i):
 # In[15]:
 
 #make root of minimax
-for ratio in range(200,400,1):
-    ratio=ratio/200
-    for num in range(10,500):
+for ratio in range(1,5):
+    for num in range(10,50):
         
         graph_properties=[num,math.floor(num*ratio)]
-        result=graph_properties
-        for i in range(0,100):
+        for i in range(0,5):
+            result=[]
+            result=[graph_properties[0],graph_properties[1]]
             G=nx.gnm_random_graph(graph_properties[0],graph_properties[1], directed=True)
             for n in G.nodes():
                 G.node[n]['infected']=0
@@ -202,12 +202,9 @@ for ratio in range(200,400,1):
             with open("result.csv","a") as r:
                 r.write(str(result))
                 r.write("\n")
-            break
-        break
-    break
-                
-                
 
+                
+                
 
 # In[ ]:
 
