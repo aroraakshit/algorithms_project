@@ -4,7 +4,7 @@
 ### Course Instructor: [Dr. Ashutosh Trivedi](http://www.cs.colorado.edu/~astr3586/index.html)
 
 This repository contains codes and other files for the final project.
-+ [Report](yet to make)
++ Report: "infection-propagation-problem (1).pdf"
 + [Slides](https://docs.google.com/presentation/d/1IumAF3Xah6MMs0-oxfOlFoKtNaqZDegZLi8YPbtH8NA/edit?usp=sharing)
 
 Feel free to email me or Prashil Bhimani for comments/questions -> [akshit.arora@colorado.edu](mailto:akshit.arora@colorado.edu), [prashil.bhimani@colorado.edu](mailto:prashil.bhimani@colorado.edu)
